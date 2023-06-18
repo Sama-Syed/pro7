@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+        <meta name="viewport" contents="width=device-width,initial-scale=1.0">
+        <title>Guess</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+<body>
+    
+    <div class="box">
+        <center><h1>Number Guess Application</h1>
+        <p class="rule" >Select The Number Between 1 to 100 and Guess it !!</p><br>
+        <p id="guess"><b>Guess The Number : </b><input type="number" id="num" placeholder="Guess the Number"><br><br><br></p>
+        <div id=res></div><br>
+        <div class="main">
+        <input type="submit" value="SUBMIT" id="sub" onclick="check()">
+        <input type="submit" value="RESET" id="re" onclick="window.location.reload()"></center>
+        </div>
+
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>

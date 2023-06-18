@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-126.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+   
+}
+.box{
+margin: auto;
+margin-top: 8%;
+height:350px;
+width:600px;
+border: 2px solid rgb(244, 164, 96,0.2);
+border-radius: 20px;
+box-shadow: 5px 4px 4px 4px ;
+}
+h1{
+font-size: 40px;
+font-family:'Times New Roman', Times, serif;
+color:palevioletred;
+}
+.rule{
+font-size: 23px;
+font-family: "Footlight MT Light";
+color:rgb(224, 70, 95);
+}
+#num{
+font-size: 20px;
+width:250px;
+height:30px;
+margin-top: -1%;
+} 
+#guess{
+font-size: 20px;
+margin-top: -1%;
+}
+#sub,#re{
+height:45px;
+width:89px;
+margin-top:-65px;
+border-radius: 5px;
+border: 2px solid rgb(216, 112, 147); 
+background-color: rgba(216, 112, 147,0.5);
+margin-left: 9px;
+font-size: 20px;
+}
